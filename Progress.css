@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #D1C4E9;
+}
+
+/* Navbar styling */
+.navbar {
+    width: 100%;
+    background-color: #673AB7;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Button styling */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid white; /* Add a white border around each button */
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  /* Header Styling */
+  header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 5px;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  /* Section Titles */
+  h2 {
+    color: #007bff;
+    margin-top: 20px;
+    font-size: 1.5em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  /* Progress Overview */
+  #progress-overview {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  td {
+    background-color: #fff;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table td:last-child {
+    font-weight: bold;
+  }
+  
+  td span.complete {
+    color: green;
+  }
+  
+  td span.in-progress {
+    color: orange;
+  }
+  
+  /* Placeholder for Progress Graph */
+  #progress-graph {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: #666;
+  }
+  
+  /* Physician Notes */
+  #physician-notes {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #physician-notes article {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #physician-notes article h3 {
+    font-size: 1.2em;
+    color: #007bff;
+  }
+  
+  #physician-notes p {
+    margin-top: 5px;
+    color: #333;
+  }
+  
+  #physician-notes p strong {
+    color: #333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.5em;
+    }
+    
+    header p {
+      font-size: 1em;
+    }
+  
+    h2 {
+      font-size: 1.2em;
+    }
+  
+    th, td {
+      padding: 8px;
+      font-size: 0.9em;
+    }
+  
+    #progress-overview, #progress-graph, #physician-notes {
+      padding: 15px;
+    }
+  }
+  

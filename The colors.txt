@@ -7,7 +7,3 @@ Accent color #448aff
 Primary text #212121
 Secondary text #757575
 Divider color #BDBDBD
-
-
-
-I like popeyes
