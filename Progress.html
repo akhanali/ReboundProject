@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Progress</title>
   <link rel="stylesheet" href="Progress.css">
+  <script src="Progress.js"></script>
+
 </head>
 <body>
     <div class="navbar">
@@ -14,7 +16,7 @@
         <a href="Physician.html" class="button">Physician</a>
     </div>
   <header>
-    <h1>Patient Progress Dashboard</h1>
+    <h1 id = "Header">Patient Progress Dashboard</h1>
     <p>Track your progress and see feedback from your physician.</p>
   </header>
 
@@ -27,32 +29,29 @@
   <section id="exercise-progress">
     <h2>Exercise Progress</h2>
     <table>
-      <thead>
-        <tr>
-          <th>Exercise</th>
-          <th>Target Repetitions</th>
-          <th>Completed Repetitions</th>
-          <th>Last Performed</th>
-          <th>Progress</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Leg Raises</td>
-          <td>3 sets of 10</td>
-          <td>3 sets of 10</td>
-          <td>Nov 8, 2024</td>
-          <td>✅ Complete</td>
-        </tr>
-        <tr>
-          <td>Hamstring Stretch</td>
-          <td>3 sets of 30 seconds</td>
-          <td>3 sets of 25 seconds</td>
-          <td>Nov 7, 2024</td>
-          <td>⚠️ In Progress</td>
-        </tr>
-      </tbody>
-    </table>
+        <thead>
+          <tr>
+            <th>Exercise</th>
+            <th>Target Repetitions</th>
+            <th>Last Performed</th>
+            <th>Progress</th>
+          </tr>
+        </thead>
+        <tbody id="progress-table-body">
+          <tr>
+            <td>Hip External Rotator Stretch</td>
+            <td>2 sets</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Ankle Dorsiflexion</td>
+            <td>2 sets</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+     </table>
   </section>
 
   <section id="progress-graph">
@@ -63,12 +62,12 @@
   <section id="physician-notes">
     <h2>Physician's Notes</h2>
     <article>
-      <h3>Nov 8, 2024</h3>
-      <p><strong>Dr. Ali:</strong> Noted improvement in overall flexibility. Recommended focusing on balance exercises next week.</p>
+      <h3></h3>
+      <p><strong></strong></p>
     </article>
     <article>
-      <h3>Nov 1, 2024</h3>
-      <p><strong>Dr. Ali:</strong> Good start on leg strength exercises. Continue with stretching exercises.</p>
+      <h3></h3>
+      <p><strong></strong></p>
     </article>
   </section>
 </body>

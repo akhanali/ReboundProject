@@ -14,6 +14,8 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #FEFCED;
+    overflow-y: auto;
+    min-height: 100%
 }
 .button {
     color: rgb(60, 58, 58);
@@ -23,6 +25,10 @@ body {
     border-radius: 5px;
     font-size: 1em;
     transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: #555;
+    color: white;
 }
 
 .navbar {
@@ -63,18 +69,20 @@ body {
     text-align: center;
     padding-bottom: 20px;
     border-bottom: 2px solid #ddd;
+    margin-top: 300px;
   }
   
   header h1 {
     font-size: 2em;
     color: #333;
+    margin-top: 0px;
     margin-bottom: 5px;
   }
   
   header p {
     font-size: 1.2em;
     color: #333;
-}
+  }
   
   /* Section Titles */
   h2 {
@@ -132,8 +140,14 @@ body {
   td span.in-progress {
     color: orange;
   }
-  
-  /* Placeholder for Progress Graph */
+  #progress-overview,
+  #progress-graph,
+  #physician-notes,
+  #exercise-progress {
+    width: 80%; 
+    max-width: 800px; 
+    margin: 20px auto; 
+  }
   #progress-graph {
     text-align: center;
     padding: 20px;
@@ -151,6 +165,9 @@ body {
     margin-top: 20px;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 500px; /* Adjust as needed */
+    
+
   }
   
   #physician-notes article {
