@@ -6,38 +6,46 @@
 
 /* Style the body */
 body {
-    font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-color: #D1C4E9;
+    font-family: Arial, sans-serif;
+    background-color: #FEFCED;
 }
-
-/* Navbar styling */
-.navbar {
-    width: 100%;
-    background-color: #673AB7;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-/* Button styling */
-.navbar a {
-    color: white;
+.button {
+    color: rgb(60, 58, 58);
     text-decoration: none;
     padding: 10px 20px;
-    border: 2px solid white; /* Add a white border around each button */
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 5px;
     font-size: 1em;
     transition: background-color 0.3s;
 }
+
+.navbar {
+    width: 100%;
+    background-color: #D1C4E9;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    position: fixed; /* Keep navbar fixed at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+/* .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid white; 
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+} */
 
 .navbar a:hover {
     background-color: #555;
@@ -49,19 +57,6 @@ body {
 
 
 
-/* Basic Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #f9f9f9;
-    padding: 20px;
-  }
   
   /* Header Styling */
   header {
@@ -72,18 +67,18 @@ body {
   
   header h1 {
     font-size: 2em;
-    color: #007bff;
+    color: #333;
     margin-bottom: 5px;
   }
   
   header p {
     font-size: 1.2em;
-    color: #666;
-  }
+    color: #333;
+}
   
   /* Section Titles */
   h2 {
-    color: #007bff;
+    color: #333;
     margin-top: 20px;
     font-size: 1.5em;
     border-bottom: 2px solid #ddd;
@@ -165,8 +160,8 @@ body {
   
   #physician-notes article h3 {
     font-size: 1.2em;
-    color: #007bff;
-  }
+    color: #333;
+}
   
   #physician-notes p {
     margin-top: 5px;

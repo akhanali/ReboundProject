@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            background-color: #FEFCED;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -31,10 +31,10 @@
         .profile-card h1 {
             font-size: 24px;
             margin: 10px 0;
-            color: #212121;
+            color: #333;
         }
         .profile-card p {
-            color: #757575;
+            color: #333;
         }
         .divider {
             margin: 15px 0;
@@ -42,16 +42,48 @@
             background-color: #BDBDBD;
         }
         .contact-info {
-            color: #212121;
+            color: #333;
             margin-top: 20px;
         }
         .contact-info a {
             color: #007bff;
             text-decoration: none;
         }
+        .navbar {
+            width: 100%;
+            background-color: #D1C4E9;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-around;
+            position: fixed; /* Keep navbar fixed at the top */
+            top: 0;
+            left: 0;
+            z-index: 1000; /* Ensure it stays on top */
+        }
+
+        .button {
+            color: rgb(60, 58, 58);
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 5px;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #555;
+            color: white;
+        }
     </style>
 </head>
 <body>
+    <div class="navbar">
+        <a href="MainPG.html" class="button">Home</a>
+        <a href="mainpage.html" class="button">Exercises</a>
+        <a href="Progress.html" class="button">Progress</a>
+        <a href="yaspage.html" class="button">Physician</a>
+    </div>
     <div class="profile-card">
         <img src="doctor-headshot.jpg" alt="Doctor's headshot">
         
