@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .profile-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .profile-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        .profile-card h1 {
+            font-size: 24px;
+            margin: 10px 0;
+            color: #212121;
+        }
+        .profile-card p {
+            color: #757575;
+        }
+        .divider {
+            margin: 15px 0;
+            height: 1px;
+            background-color: #BDBDBD;
+        }
+        .contact-info {
+            color: #212121;
+            margin-top: 20px;
+        }
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="doctor-headshot.jpg" alt="Doctor's headshot">
+        
+        <h1>Dr. Ali Tse</h1>
+
+        <div class="divider"></div>
+        
+        <p><strong>Specialty:</strong> Cardiology</p>
+        
+        <div class="divider"></div>
+
+        <div class="contact-info">
+            <p><strong>Contact:</strong> alitse@yahoo.com</p>
+            <p><strong>Phone:</strong> (555) 123-4567</p>
+        </div>
+    </div>
+</body>
+</html>
